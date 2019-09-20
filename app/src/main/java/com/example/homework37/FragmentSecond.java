@@ -58,7 +58,6 @@ public class FragmentSecond extends Fragment {
                 fragment3.setArguments(bundle1);
                 FragmentManager fragmentManager1 = getActivity().getSupportFragmentManager();
                 fragmentManager1.beginTransaction().replace(R.id.container, fragment3).commit();
-
             }
         });
         return view;
